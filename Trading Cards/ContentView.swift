@@ -15,6 +15,16 @@ struct ContentView: View {
                 .scaledToFill()
                 .ignoresSafeArea()
                 .opacity(0.6)
+            
+            Color.yellow
+                .padding(.horizontal, 270)
+            VStack{
+                Image("Briar")
+                    .resizable()
+                    .scaledToFit()
+                    .clipShape(Circle())
+                Spacer(minLength: 500)
+            }
         }
     }
 }
