@@ -12,7 +12,7 @@ struct TradingListView: View {
         NavigationStack {
             List(tradingCards) { currentCard in
                 NavigationLink {
-                    TradingDetailVIew(tradingCardToShow: currentCard)
+                    TradingDetailView(tradingCardToShow: currentCard)
                 } label: {
                     TradingItemView(providedCard: currentCard)
                 }
